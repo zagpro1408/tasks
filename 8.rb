@@ -14,6 +14,6 @@ p array
     array[n] += array[0]
   end
 end
-
+git
 puts
 p array

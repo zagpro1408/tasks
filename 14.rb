@@ -4,4 +4,4 @@
 
 m = (1..10).to_a
 m.unshift(m.last).pop
-p m
+p mruby

@@ -4,5 +4,5 @@
 
 array = (1..100).to_a
 
-array.each { |n| puts i if n.even? }
-array.each { |n| puts i if !n.even? }
+puts array.find_all{ |elem| elem.even?}
+puts array.find_all{ |elem| elem.odd?}
